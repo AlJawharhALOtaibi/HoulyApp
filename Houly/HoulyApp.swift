@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-
 @main
 struct HoulyApp: App {
+    @State private var showOnboarding = false
+    @State private var showSplash = true
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(showOnboarding: $showOnboarding, showSplash: $showSplash)
         }
     }
 }

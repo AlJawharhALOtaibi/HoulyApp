@@ -8,17 +8,52 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var showOnboarding: Bool
+    @Binding var showSplash: Bool
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            ZStack {
+                if showSplash {
+                    SplashView(showOnboarding: $showOnboarding, showSplash: $showSplash)
+                } else if showOnboarding {
+                    OnBoarding()
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(showOnboarding: .constant(false), showSplash: .constant(true))
+    }
 }
+
+struct SplashView: View {
+    @Binding var showOnboarding: Bool
+    @Binding var showSplash: Bool
+
+    var body: some View {
+        ZStack {
+            Color.white // Background color
+                .ignoresSafeArea()
+            
+            VStack {
+                Image("logo")
+                //Text(" Here when your needs are met \nand your steps are paid!")
+
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300, height: 300)
+                    .onTapGesture {
+                        withAnimation {
+                            showOnboarding = true
+                            showSplash = false
+                        }
+                    }
+            }
+        }
+    }
+}
+
