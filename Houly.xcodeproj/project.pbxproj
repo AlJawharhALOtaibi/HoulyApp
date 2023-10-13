@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55ED59D2AD8C3010046161E /* HoulyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ED59C2AD8C3010046161E /* HoulyApp.swift */; };
+		A55ED59F2AD8C3010046161E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ED59E2AD8C3010046161E /* ContentView.swift */; };
+		A55ED5A12AD8C3020046161E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55ED5A02AD8C3020046161E /* Assets.xcassets */; };
+		A55ED5A42AD8C3020046161E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55ED5A32AD8C3020046161E /* Preview Assets.xcassets */; };
+		A55ED5AE2AD8C3020046161E /* HoulyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ED5AD2AD8C3020046161E /* HoulyTests.swift */; };
+		A55ED5B82AD8C3020046161E /* HoulyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ED5B72AD8C3020046161E /* HoulyUITests.swift */; };
+		A55ED5BA2AD8C3020046161E /* HoulyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ED5B92AD8C3020046161E /* HoulyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55ED5AA2AD8C3020046161E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55ED5912AD8C3010046161E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55ED5982AD8C3010046161E;
+			remoteInfo = Houly;
+		};
+		A55ED5B42AD8C3020046161E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55ED5912AD8C3010046161E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A55ED5982AD8C3010046161E;
+			remoteInfo = Houly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A55ED5992AD8C3010046161E /* Houly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Houly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55ED59C2AD8C3010046161E /* HoulyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoulyApp.swift; sourceTree = "<group>"; };
+		A55ED59E2AD8C3010046161E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A55ED5A02AD8C3020046161E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A55ED5A32AD8C3020046161E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A55ED5A92AD8C3020046161E /* HoulyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoulyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55ED5AD2AD8C3020046161E /* HoulyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoulyTests.swift; sourceTree = "<group>"; };
+		A55ED5B32AD8C3020046161E /* HoulyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoulyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55ED5B72AD8C3020046161E /* HoulyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoulyUITests.swift; sourceTree = "<group>"; };
+		A55ED5B92AD8C3020046161E /* HoulyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoulyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55ED5962AD8C3010046161E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5A62AD8C3020046161E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5B02AD8C3020046161E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55ED5902AD8C3010046161E = {
+			isa = PBXGroup;
+			children = (
+				A55ED59B2AD8C3010046161E /* Houly */,
+				A55ED5AC2AD8C3020046161E /* HoulyTests */,
+				A55ED5B62AD8C3020046161E /* HoulyUITests */,
+				A55ED59A2AD8C3010046161E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55ED59A2AD8C3010046161E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED5992AD8C3010046161E /* Houly.app */,
+				A55ED5A92AD8C3020046161E /* HoulyTests.xctest */,
+				A55ED5B32AD8C3020046161E /* HoulyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55ED59B2AD8C3010046161E /* Houly */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED59C2AD8C3010046161E /* HoulyApp.swift */,
+				A55ED59E2AD8C3010046161E /* ContentView.swift */,
+				A55ED5A02AD8C3020046161E /* Assets.xcassets */,
+				A55ED5A22AD8C3020046161E /* Preview Content */,
+			);
+			path = Houly;
+			sourceTree = "<group>";
+		};
+		A55ED5A22AD8C3020046161E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED5A32AD8C3020046161E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A55ED5AC2AD8C3020046161E /* HoulyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED5AD2AD8C3020046161E /* HoulyTests.swift */,
+			);
+			path = HoulyTests;
+			sourceTree = "<group>";
+		};
+		A55ED5B62AD8C3020046161E /* HoulyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55ED5B72AD8C3020046161E /* HoulyUITests.swift */,
+				A55ED5B92AD8C3020046161E /* HoulyUITestsLaunchTests.swift */,
+			);
+			path = HoulyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55ED5982AD8C3010046161E /* Houly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55ED5BD2AD8C3020046161E /* Build configuration list for PBXNativeTarget "Houly" */;
+			buildPhases = (
+				A55ED5952AD8C3010046161E /* Sources */,
+				A55ED5962AD8C3010046161E /* Frameworks */,
+				A55ED5972AD8C3010046161E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Houly;
+			productName = Houly;
+			productReference = A55ED5992AD8C3010046161E /* Houly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55ED5A82AD8C3020046161E /* HoulyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55ED5C02AD8C3020046161E /* Build configuration list for PBXNativeTarget "HoulyTests" */;
+			buildPhases = (
+				A55ED5A52AD8C3020046161E /* Sources */,
+				A55ED5A62AD8C3020046161E /* Frameworks */,
+				A55ED5A72AD8C3020046161E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55ED5AB2AD8C3020046161E /* PBXTargetDependency */,
+			);
+			name = HoulyTests;
+			productName = HoulyTests;
+			productReference = A55ED5A92AD8C3020046161E /* HoulyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A55ED5B22AD8C3020046161E /* HoulyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55ED5C32AD8C3020046161E /* Build configuration list for PBXNativeTarget "HoulyUITests" */;
+			buildPhases = (
+				A55ED5AF2AD8C3020046161E /* Sources */,
+				A55ED5B02AD8C3020046161E /* Frameworks */,
+				A55ED5B12AD8C3020046161E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55ED5B52AD8C3020046161E /* PBXTargetDependency */,
+			);
+			name = HoulyUITests;
+			productName = HoulyUITests;
+			productReference = A55ED5B32AD8C3020046161E /* HoulyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55ED5912AD8C3010046161E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A55ED5982AD8C3010046161E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A55ED5A82AD8C3020046161E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A55ED5982AD8C3010046161E;
+					};
+					A55ED5B22AD8C3020046161E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A55ED5982AD8C3010046161E;
+					};
+				};
+			};
+			buildConfigurationList = A55ED5942AD8C3010046161E /* Build configuration list for PBXProject "Houly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55ED5902AD8C3010046161E;
+			productRefGroup = A55ED59A2AD8C3010046161E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55ED5982AD8C3010046161E /* Houly */,
+				A55ED5A82AD8C3020046161E /* HoulyTests */,
+				A55ED5B22AD8C3020046161E /* HoulyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55ED5972AD8C3010046161E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55ED5A42AD8C3020046161E /* Preview Assets.xcassets in Resources */,
+				A55ED5A12AD8C3020046161E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5A72AD8C3020046161E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5B12AD8C3020046161E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55ED5952AD8C3010046161E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55ED59F2AD8C3010046161E /* ContentView.swift in Sources */,
+				A55ED59D2AD8C3010046161E /* HoulyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5A52AD8C3020046161E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55ED5AE2AD8C3020046161E /* HoulyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55ED5AF2AD8C3020046161E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55ED5BA2AD8C3020046161E /* HoulyUITestsLaunchTests.swift in Sources */,
+				A55ED5B82AD8C3020046161E /* HoulyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55ED5AB2AD8C3020046161E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55ED5982AD8C3010046161E /* Houly */;
+			targetProxy = A55ED5AA2AD8C3020046161E /* PBXContainerItemProxy */;
+		};
+		A55ED5B52AD8C3020046161E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A55ED5982AD8C3010046161E /* Houly */;
+			targetProxy = A55ED5B42AD8C3020046161E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A55ED5BB2AD8C3020046161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A55ED5BC2AD8C3020046161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55ED5BE2AD8C3020046161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Houly/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Houly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55ED5BF2AD8C3020046161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Houly/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Houly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A55ED5C12AD8C3020046161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.HoulyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Houly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Houly";
+			};
+			name = Debug;
+		};
+		A55ED5C22AD8C3020046161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.HoulyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Houly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Houly";
+			};
+			name = Release;
+		};
+		A55ED5C42AD8C3020046161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.HoulyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Houly;
+			};
+			name = Debug;
+		};
+		A55ED5C52AD8C3020046161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.HoulyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Houly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55ED5942AD8C3010046161E /* Build configuration list for PBXProject "Houly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55ED5BB2AD8C3020046161E /* Debug */,
+				A55ED5BC2AD8C3020046161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55ED5BD2AD8C3020046161E /* Build configuration list for PBXNativeTarget "Houly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55ED5BE2AD8C3020046161E /* Debug */,
+				A55ED5BF2AD8C3020046161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55ED5C02AD8C3020046161E /* Build configuration list for PBXNativeTarget "HoulyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55ED5C12AD8C3020046161E /* Debug */,
+				A55ED5C22AD8C3020046161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55ED5C32AD8C3020046161E /* Build configuration list for PBXNativeTarget "HoulyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55ED5C42AD8C3020046161E /* Debug */,
+				A55ED5C52AD8C3020046161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55ED5912AD8C3010046161E /* Project object */;
+}
