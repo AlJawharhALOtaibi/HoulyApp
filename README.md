@@ -1,6 +1,6 @@
 # Houly App!
-[1698061805336](https://github.com/AlJawharhALOtaibi/HoulyApp/assets/87391133/50e14172-a2e1-4e56-89d3-09090ddcaad8)
 
+![1698061805336](https://github.com/AlJawharhALOtaibi/HoulyApp/assets/87391133/c69105f3-cafd-4f43-af11-1457e9ae82ca)
 
 ## Overview
 
@@ -36,4 +36,5 @@ For any queries, feedback, or suggestions, feel free to reach out to our develop
 
 ## License
 
-This project is licensed under [Apple Developer Academy](https://www.example.com/apple-developer-academy).
+This project is licensed under [Apple Developer Academy](https://developeracademy.tuwaiq.edu.sa/). 
+
